@@ -38,6 +38,14 @@
 
         .navbar-links a {
           margin: 0 20px;
+
+        }
+
+        .navbar-links a:hover {
+          /* CSS properties for the link on hover */
+          color: green; /* Change the text color to red */
+          /*  font-weight: bold;Make the text bold */
+          /* Add any other style changes you want on hover */
         }
 
         .navbar-icons {
