@@ -1,0 +1,513 @@
+
+/*-----------------navbar------------------------------------------------------------*/
+
+
+        .navbar-bg {
+          background: linear-gradient(to right, #7e7e7e 0%, #ffffff 100%);
+        }
+
+        .navbar {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          max-width:none;
+          margin: 0 auto;
+          padding: 0 0;
+
+        }
+
+
+
+        .navbar-logos {
+          display: flex;
+          justify-content: flex-start;
+          flex-grow: 1;
+        }
+
+        .navbar-logos a {
+            height: 50px;
+            width: 100px;
+            margin: 10px;
+        }
+
+        .navbar-links {
+          display: flex;
+          justify-content: center;
+          flex-grow: 1;
+        }
+
+        .navbar-links a {
+          margin: 0 20px;
+        }
+
+        .navbar-icons {
+          display: flex;
+          justify-content: flex-end;
+          flex-grow: 1;
+        }
+
+        .navbar-icons a {
+          margin-left: 20px;
+        }
+
+/*---------------landing page-------------------------------------------------------*/
+
+        .landingContainer{
+            display:flex;
+            flex-direction: column;
+            padding-bottom:2rem;
+        }
+
+        .landingContainer-text{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 70px 100px;
+        }
+
+        .landingContainer-text h1{
+            margin: 20px;
+        }
+
+        .landingContainer-text p{
+            text-align:center;
+        }
+
+        .landingContainer-skills{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0px 100px;
+            margin: 50px 30px;
+
+        }
+
+
+
+        .landingContainer-skills a{
+            height:100px;
+            width:100px;
+            margin-top: 30px;
+            margin-right: 10px;
+        }
+
+
+
+        .landingContainer-skills img {
+          animation: scale 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes scale {
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.2);
+          }
+        }
+
+        .landingContainer-skills img {
+            transition: transform 0.3s ease;
+        }
+
+        .landingContainer-skills a:hover img {
+            transform: translateY(-10px); /* Adjust the value to control the upward movement */
+        }
+
+        
+
+
+
+        .landingContainer-arrow{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 80px 10px 20px 10px;
+        }
+
+        .landingContainer-arrow a{
+                 width: 80px;
+                height: 80px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                animation: bounce 1s infinite alternate;
+        }
+
+        @keyframes bounce {
+          from {
+            transform: translateY(0);
+          }
+          to {
+            transform: translateY(10px);
+          }
+        }
+
+/*-----------------section page------------------------------------------------*/
+
+
+        .sectionContainer{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .sectionContainer-text{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 60px 20px 30px 20px;
+        }
+
+        .sectionContainer-cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 100px 0px 100px 0px;
+
+        }
+
+        .card {
+              width: 342px;
+              height: 370px;
+              background-color: #fff;
+              border-radius: 5px;
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              transition: all 0.2s ease-in-out;
+        }
+
+        .card:hover {
+              transform: translateY(-12px);
+              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .footerPara{
+            color:Black !important;
+            text-align: center;
+        }
+
+
+
+/*---------------second page css----------------------------------------------------------*/
+
+        .page2IntroContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page2IntroContainer-top{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 35px 0px 110px 0px;
+        }
+
+        .page2IntroContainer-topText{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin: 20px 0px;
+            margin-left: 35px;
+        }
+
+        .page2IntroContainer-topImg{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page2IntroContainer-topImg img{
+                        max-width: 91%;
+                        height: 365px;
+                        margin: 26px 16px;
+        }
+
+        .page2IntroContainer-bottom{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                max-width: none;
+                margin: 0 10px 30px 10px;
+                padding: 0 0;
+        }
+
+        .introBottomArrow{
+              display: flex;
+              justify-content: flex-end;
+              flex-grow: 1;
+
+        }
+
+        .introBottomIcon{
+              display: flex;
+              justify-content: flex-end;
+              flex-grow: 1;
+        }
+
+        .introBottomArrow a{
+                height: 120px;
+                width: 100px;
+                margin-left: 88px;
+                animation: bounce 1s infinite alternate;
+        }
+        .introBottomIcon a{
+                margin-right: 32px;
+                margin-top: 21px;
+                height: 88px;
+                width: 65px;
+        }
+
+/*-------------second page main content---------------------------------------------*/
+        .p2Container{
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+        }
+
+        .p2Container-text{
+                width: 66%;
+                background-color: white;
+                border-radius: 12px;
+                padding: 30px;
+                margin: 80px 20px 10px 20px;
+        }
+
+        .p2Container-images{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 10px 200px 40px 200px;
+        }
+
+        .p2Container-images img{
+            width: 345px;
+            margin: 0.5rem;
+        }
+
+         .pdfContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 700px;
+            margin-top: 50px;
+        }
+
+        embed{
+            height:700px;
+        }
+
+        .p2Container-bottom{
+            margin:30px
+        }
+
+        .p2Container-bottom img{
+                height: 65px;
+                width: 60px;
+        }
+
+/*-------------contact page-----------------------------------------------*/
+
+        .contactContainer{
+            display: flex;
+
+        }
+
+        .contactContainer-form{
+            display: flex;
+            flex-direction: column;
+            flex-grow:1;
+            align-items: flex-end;
+            width:58%;
+        }
+
+        .contactContainer-myInfo{
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                flex-wrap: nowrap;
+                align-items: flex-start;
+                justify-content: center;
+                margin-left: 74px;
+                margin-bottom: 76px;
+        }
+
+        .contactContainer-myInfo img{
+            width:50px;
+            height:50px;
+        }
+        .myInfo-content{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 100%;
+            justify-content: flex-start;
+
+        }
+
+        .myInfo-content a{
+            margin:16px;
+        }
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-----media queries----xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+@media screen and (max-width: 768px) {
+
+/* --------------navbar-------@media query---------------------------------------*/
+  .navbar {
+      flex-direction:column;
+
+  }
+
+
+  .navbar .myContainer {
+    padding: 0 10px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-links a {
+    margin: 10px 0;
+  }
+
+  .navbar-icons {
+    justify-content: center;
+  }
+
+  .navbar-icons a {
+    margin: 0 10px;
+  }
+
+
+/*---------------section---@media query--------------------------------------*/
+
+
+        .sectionContainer-text{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content:center;
+        }
+
+
+
+        .sectionContainer-text h1,p{
+            text-align: center;
+        }
+
+/*--------------second page-----@media query------------------------------------------*/
+
+        .page2IntroContainer-top{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page2IntroContainer-topText{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-items: center;
+                margin: 20px 0px;
+        }
+
+
+        .pdfContainer{
+            width: 100%;
+            height: 500px;
+        }
+
+         embed {
+              font-size: 14px;
+              padding: 10px;
+              width: 80%;
+              height: 500px;
+
+         }
+
+
+
+
+
+}
+
+
+/*xxxxxxxxxxxxxxx--more------media query---------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+@media screen and (max-width:830px){
+
+
+         .p2Container-images{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 80px 40px 80px;
+        }
+
+        .p2Container-images img{
+            width: 80%;
+            margin: 0.5rem;
+        }
+
+/*--------------contact page--------------------------------------------*/
+
+         .contactContainer{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+        }
+
+
+        .contactContainer-myInfo{
+                margin-left: 0px
+        }
+
+
+
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+       .sectionContainer-text p{
+            margin-left:70px;
+       }
+
+
+}
+
