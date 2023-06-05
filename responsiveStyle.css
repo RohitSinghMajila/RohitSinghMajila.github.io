@@ -106,7 +106,7 @@
 
 
         .landingContainer-skills img {
-          animation: scale 3s ease-in-out infinite alternate;
+          animation: scale 2s ease-in-out infinite alternate;
         }
 
         @keyframes scale {
@@ -118,15 +118,6 @@
           }
         }
 
-        .landingContainer-skills img {
-            transition: transform 0.3s ease;
-        }
-
-        .landingContainer-skills a:hover img {
-            transform: translateY(-10px); /* Adjust the value to control the upward movement */
-        }
-
-        
 
 
 
