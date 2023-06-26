@@ -131,7 +131,10 @@
   opacity: 1.0; /* change the value to adjust transparency */
 }
 
+.videoContainer{
+    margin-top: 50px;
 
+}
 
 
 
