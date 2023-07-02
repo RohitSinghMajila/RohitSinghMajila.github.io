@@ -113,7 +113,6 @@
 
 .secondPageIntro-bg {
   position: relative;
-  background-image: url('images/bg32.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -133,14 +132,18 @@
 
 .videoContainer{
     margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
 .tableauDashboard{
     margin-top: 50px;
-    margin-left: 150px;
-    margin-bottom: -600px;
+    padding-left:80px;
+    margin-bottom: 50px;
+
 }
+
+
 
 
 
